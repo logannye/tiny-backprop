@@ -1,6 +1,6 @@
 # tiny-backprop
 
-**Height-compressed backpropagation for arbitrary computation graphs.**
+## **Height-compressed backpropagation for arbitrary computation graphs.**
 
 `tiny-backprop` turns the classic √T-memory checkpointing result for “skinny” computations into a practical toolbox for modern deep networks. The repository is intentionally organised like a research project: you will find the graph IR and analytical tools, the scheduling engine, framework bindings, benchmarks, and extensive documentation in one place.
 
