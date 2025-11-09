@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tiny-backprop"
+version = "0.1.0"
+description = "Height-compressed backpropagation research toolkit"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "tiny-backprop contributors" }]
+license = { text = "MIT" }
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]
